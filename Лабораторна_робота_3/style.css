@@ -1,0 +1,15 @@
+ul.nav{
+    margin-left: 100px;
+    padding-left: 0px;
+    list-style: none;
+}
+body {
+    background:#444;
+    color: rgb(255, 255, 255);
+   }
+ 
+  footer{
+    text-align: center;
+    background:rgba(255, 255, 255, 0.911);
+    width: 100%;
+  }
