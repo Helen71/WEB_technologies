@@ -1,0 +1,47 @@
+<style>
+    .rectangle {
+        width: 200px;
+        height: 200px;
+        background: blueviolet;
+    }
+
+    @keyframes color_variety {
+        from {
+            background: violet;
+        }
+
+        to {
+            background: pink;
+        }
+        0% {
+            background: lightcoral;
+        }
+
+        4% {
+            background: darkviolet;
+        }
+
+        50% {
+            background: pink;
+        }
+        73% {
+            background: darkviolet;
+        }
+
+
+        96% {
+            background: lightcoral;
+
+        }
+        100% {
+            background: violet;
+
+        }
+    }
+    div{
+
+        animation-duration: 5s;
+        animation-name: color_variety;
+    }
+</style>
+<div class= "rectangle">  </div>

@@ -1,0 +1,50 @@
+<style>
+      .ellipse {
+        width: 200px;
+        height: 100px;
+        background: coral;
+        border-radius: 100px / 50px ;
+        
+    }
+
+
+    @keyframes flex {
+
+
+        0% {
+            transform: translate3d(0px, 0px, 0px);
+            border-radius: 200px ;
+          
+           
+        }
+        25%{
+            transform: scaleX(5);
+            border-radius: 200px ;
+        }
+        50% {
+
+            transform: translate3d(400px, 400px, 0px);
+            border-radius: 200px ;
+            
+
+
+        }
+        100% {
+            transform: rotate(360deg);
+             border-radius: 200px ;
+           
+        }
+    }
+
+    div{
+
+        position: absolute;
+        top: 0px;
+        transition: transform .3s ease-out;
+        animation-duration: 3s;
+        animation-name: flex;
+        animation-iteration-count: infinite;
+    }
+
+</style>
+<div class= "ellipse">  </div>

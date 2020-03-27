@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .grid-box {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+            grid-gap: 5px 5px;
+            background-color: black;
+            padding: 5px;
+        }
+
+        .div1 { grid-area: 1 / 1 / 2 / 6; background-color: red}
+        .div2 { grid-area: 1 / 6 / 2 / 11; background-color: blueviolet}
+        .div3 { grid-area: 2 / 1 / 4 / 6; background-color: darkred}
+        .div4 { grid-area: 2 / 6 / 5 / 11; background-color: violet}
+        .div5 { grid-area: 4 / 1 / 5 / 6; background-color:lightsalmon}
+        .div6 { grid-area: 5 / 1 / 7 / 5; background-color: white}
+        .div7 { grid-area: 5 / 6 / 6 / 11; background-color:pink}
+        .div8 { grid-area: 6 / 6 / 7 / 11; background-color:cornsilk}
+        .div9 { grid-area: 5 / 5 / 7 / 6; background-color:orangered}
+
+        .grid-box > div{
+
+            text-align: center;
+            padding: 20px ;
+            font-size: 30px;
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+<div class="grid-box">
+    <div class="div1">1 </div>
+    <div class="div2"> 2</div>
+    <div class="div3">3  </div>
+    <div class="div4"> 4</div>
+    <div class="div5">5 </div>
+    <div class="div6">6 </div>
+    <div class="div7">7 </div>
+    <div class="div8">8 </div>
+    <div class="div9"> 9</div>
+</div>
+
+
+</body>
+
+</html>>
