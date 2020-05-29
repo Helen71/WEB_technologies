@@ -33,7 +33,5 @@ body {
     0% { transform: rotate(-180deg); }
     100% { transform: rotate(180deg); }
 }
-#index {
-	text-align: center;
-	font-size: 200px;
-}
+
+   
