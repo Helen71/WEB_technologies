@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+}
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  background-color: salmon
+}
+
+th {
+  background-color: lightpink;
+  color: salmon;
+}
+#storage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#time-top {
+  text-align: center;
+}
+
+#time-top h3 {
+  display: inline-block;
+}
+
+#time {
+  font-size: 25px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
