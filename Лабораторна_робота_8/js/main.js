@@ -1,4 +1,4 @@
-
+﻿
 class Stockexchange {
  
   constructor(API, marks, fstatic, fdynamic, token) {
